@@ -52,7 +52,7 @@ const Instructors = () => {
           component="img"
           alt="Card Image"
           image={image1}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          sx={{ objectFit: "cover", width: "35%", height: "600px" }}
         />
       </Box>
     </Box>

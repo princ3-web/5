@@ -30,7 +30,7 @@ const Location = () => {
           component="img"
           alt="Card Image"
           image={image1}
-          sx={{ objectFit: "cover", width: "40%", height: "400px" }}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
       </Box>
     </Box>

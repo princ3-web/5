@@ -25,26 +25,28 @@ const Classes = () => {
           image={image1}
           sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
-        <Box sx={{ width: "40%" }}>
+           <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Individual yoga classes
+            Christoph Weber
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Individual yoga classes provide personalized instruction and tailored practices to meet
-            the unique needs and goals of each student, offering a deeper and more focused yoga
-            experience.
+            Dedicated and experienced yoga instructor who brings a strong emphasis on alignment and
+            mindfulness to his classes. His teaching style combines traditional yoga practices with
+            a modern approach, creating a space where students can deepen their mind-body connection
+            and achieve a profound sense of inner peace and well-being.
           </Typography>
         </Box>
       </Box>
       <Box sx={{ display: "flex", justifyContent: "space-evenly", py: "4rem", ml: "4rem" }}>
-        <Box sx={{ width: "40%" }}>
+      <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Yoga aerobic classes
+            Christoph Weber
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Blend the flowing movements and intensity of aerobic exercises with the mindfulness and
-            breathing techniques of yoga, promoting both physical fitness and stress reduction in a
-            single dynamic workout.
+            Dedicated and experienced yoga instructor who brings a strong emphasis on alignment and
+            mindfulness to his classes. His teaching style combines traditional yoga practices with
+            a modern approach, creating a space where students can deepen their mind-body connection
+            and achieve a profound sense of inner peace and well-being.
           </Typography>
         </Box>
         <CardMedia
@@ -61,14 +63,15 @@ const Classes = () => {
           image={image3}
           sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
-        <Box sx={{ width: "40%" }}>
+          <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Outdoor yoga
+            Christoph Weber
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Offers the opportunity to practice yoga in natural settings, harnessing the tranquility
-            of the outdoors to enhance the mind-body connection and create a refreshing and
-            rejuvenating experience.
+            Dedicated and experienced yoga instructor who brings a strong emphasis on alignment and
+            mindfulness to his classes. His teaching style combines traditional yoga practices with
+            a modern approach, creating a space where students can deepen their mind-body connection
+            and achieve a profound sense of inner peace and well-being.
           </Typography>
         </Box>
       </Box>

@@ -24,23 +24,18 @@ const About = () => {
           sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
         <Typography sx={{ width: "40%", mt: "6rem" }} variant="h5">
-          Lotus Heart Yoga is a serene and transformative yoga practice led by an experienced and
-          dedicated instructor. The instructor embodies a deep passion for yoga and guides students
-          through a harmonious blend of postures, breathing techniques, and mindfulness, fostering a
-          profound connection to the heart and soul. Under their expert guidance, participants can
-          expect to discover inner peace, balance, and a profound sense of well-being during each
-          class.
+        Lotus Heart Yoga is a serene and transformative yoga practice led by an experienced and dedicated instructor. The instructor embodies a deep passion for yoga and guides students through a harmonious blend of postures, breathing techniques, and mindfulness, fostering a profound connection to the heart and soul. Under their expert guidance, participants can expect to discover inner peace, balance, and a profound sense of well-being during each class.
         </Typography>
       </Box>
-      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <Box sx={{ display:"flex", justifyContent: "center", alignItems: "center" }}>
         <CardMedia component="img" alt="Card Image" image={image6} />
         <Box sx={{ position: "absolute", zIndex: 1, width: "60%" }}>
-          <Typography color={grey[100]} variant="h3">
-            "Yoga is the journey of the self, through the self, to the self."
-          </Typography>
-          <Typography color={grey[100]} variant="h5" sx={{ mt: "1rem" }}>
-            - The Bhagavad Gita
-          </Typography>
+        <Typography color={grey[100]} variant="h3">
+        "Yoga is the journey of the self, through the self, to the self."
+        </Typography>
+        <Typography color={grey[100]} variant="h5" sx={{mt:"1rem"}} >
+        - The Bhagavad Gita
+        </Typography>
         </Box>
       </Box>
     </Box>

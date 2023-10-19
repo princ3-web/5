@@ -1,10 +1,11 @@
 import React from "react";
 import { grey } from "@mui/material/colors";
 import { Box, Typography, CardMedia } from "@mui/material";
-import image1 from "../assets/images/7.jpg";
-import image2 from "../assets/images/8.jpg";
+import image1 from "../assets/images/9.jpg";
+import image2 from "../assets/images/10.jpg";
+import image3 from "../assets/images/11.jpg";
 
-const Instructors = () => {
+const Classes = () => {
   return (
     <Box>
       <Box sx={{ position: "relative", backgroundColor: grey[800], height: "400px", zIndex: -1 }}>
@@ -13,7 +14,7 @@ const Instructors = () => {
           variant="h2"
           sx={{ position: "absolute", bottom: "100px", ml: "4rem" }}
         >
-          Instructors
+          Classes
         </Typography>
       </Box>
 
@@ -21,23 +22,25 @@ const Instructors = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image2}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          image={image1}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
-        <Box sx={{ width: "40%" }}>
+           <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Anna Müller
+            Individual yoga classes
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Highly skilled and compassionate yoga instructor, known for her ability to create a
-            welcoming and calming atmosphere in her classes. With years of experience and a deep
-            understanding of yoga philosophy, she empowers her students to find physical and mental
-            balance on their personal wellness journeys.
+          Individual yoga classes provide personalized instruction and tailored practices to meet the unique needs and goals of each student, offering a deeper and more focused yoga experience.
+
+
+
+
+
           </Typography>
         </Box>
       </Box>
       <Box sx={{ display: "flex", justifyContent: "space-evenly", py: "4rem", ml: "4rem" }}>
-        <Box sx={{ width: "40%" }}>
+      <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
             Christoph Weber
           </Typography>
@@ -51,12 +54,31 @@ const Instructors = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image1}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          image={image2}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
+      </Box>
+      <Box sx={{ display: "flex", justifyContent: "space-evenly", py: "4rem", ml: "4rem" }}>
+        <CardMedia
+          component="img"
+          alt="Card Image"
+          image={image3}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
+        />
+          <Box sx={{ width: "40%" }}>
+          <Typography sx={{ mt: "6rem" }} variant="h5">
+            Christoph Weber
+          </Typography>
+          <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
+            Dedicated and experienced yoga instructor who brings a strong emphasis on alignment and
+            mindfulness to his classes. His teaching style combines traditional yoga practices with
+            a modern approach, creating a space where students can deepen their mind-body connection
+            and achieve a profound sense of inner peace and well-being.
+          </Typography>
+        </Box>
       </Box>
     </Box>
   );
 };
 
-export default Instructors;
+export default Classes;

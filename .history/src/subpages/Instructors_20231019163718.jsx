@@ -1,8 +1,8 @@
 import React from "react";
 import { grey } from "@mui/material/colors";
 import { Box, Typography, CardMedia } from "@mui/material";
-import image1 from "../assets/images/7.jpg";
-import image2 from "../assets/images/8.jpg";
+import image5 from "../assets/images/5.jpg";
+import image6 from "../assets/images/6.jpg";
 
 const Instructors = () => {
   return (
@@ -21,8 +21,8 @@ const Instructors = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image2}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          image={image5}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
         <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
@@ -51,8 +51,8 @@ const Instructors = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image1}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          image={image5}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
       </Box>
     </Box>

@@ -39,12 +39,12 @@ const Classes = () => {
       <Box sx={{ display: "flex", justifyContent: "space-evenly", py: "4rem", ml: "4rem" }}>
         <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Yoga aerobic classes
+          Yoga aerobic classes
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Blend the flowing movements and intensity of aerobic exercises with the mindfulness and
-            breathing techniques of yoga, promoting both physical fitness and stress reduction in a
-            single dynamic workout.
+            Blend the flowing movements and intensity of aerobic exercises with
+            the mindfulness and breathing techniques of yoga, promoting both physical fitness and
+            stress reduction in a single dynamic workout.
           </Typography>
         </Box>
         <CardMedia
@@ -63,12 +63,15 @@ const Classes = () => {
         />
         <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
-            Outdoor yoga
+          Outdoor yoga
           </Typography>
           <Typography sx={{ mt: "1rem" }} variant="h6" color={grey[700]}>
-            Offers the opportunity to practice yoga in natural settings, harnessing the tranquility
-            of the outdoors to enhance the mind-body connection and create a refreshing and
-            rejuvenating experience.
+           offers the opportunity to practice yoga in natural settings, harnessing the tranquility of the outdoors to enhance the mind-body connection and create a refreshing and rejuvenating experience.
+
+
+
+
+
           </Typography>
         </Box>
       </Box>

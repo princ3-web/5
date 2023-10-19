@@ -21,8 +21,8 @@ const Instructors = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image2}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          image={image1}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
         <Box sx={{ width: "40%" }}>
           <Typography sx={{ mt: "6rem" }} variant="h5">
@@ -52,7 +52,7 @@ const Instructors = () => {
           component="img"
           alt="Card Image"
           image={image1}
-          sx={{ objectFit: "cover", width: "35%", height: "650px" }}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
       </Box>
     </Box>

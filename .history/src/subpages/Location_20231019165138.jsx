@@ -1,7 +1,8 @@
 import React from "react";
 import { grey } from "@mui/material/colors";
 import { Box, Typography, CardMedia } from "@mui/material";
-import image1 from "../assets/images/12.jpg"
+import image5 from "../assets/images/5.jpg";
+import image6 from "../assets/images/6.jpg";
 
 const Location = () => {
   return (
@@ -29,8 +30,8 @@ const Location = () => {
         <CardMedia
           component="img"
           alt="Card Image"
-          image={image1}
-          sx={{ objectFit: "cover", width: "40%", height: "400px" }}
+          image={image5}
+          sx={{ objectFit: "cover", width: "40%", height: "600px" }}
         />
       </Box>
     </Box>
