@@ -18,14 +18,12 @@ const About = () => {
         </Typography>
       </Box>
       <Box sx={{ display: "flex", justifyContent: "space-evenly", py: "4rem", ml: "4rem" }}>
-      <Animated>
         <CardMedia
           component="img"
           alt="Card Image"
           image={image5}
           sx={{ objectFit: "cover", width: "100%", height: "600px" }}
         />
-        </Animated>
         <Typography sx={{ mt: "1rem", width: "40%" }} variant="h6" color={grey[700]}>
           Lotus Heart Yoga is a serene and transformative yoga practice led by an experienced and
           dedicated instructor. The instructor embodies a deep passion for yoga and guides students
