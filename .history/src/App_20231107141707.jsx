@@ -14,7 +14,7 @@ function App() {
   return (
     <Box sx={{ position: "relative", width: "100vw" }}>
       <Navbar />
-      <MessengerWidget/>
+      <MessengerWidget
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/instructors" element={<Instructors />} />

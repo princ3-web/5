@@ -8,13 +8,12 @@ import Location from "./subpages/Location";
 import { Box } from "@mui/material";
 import Navbar from "./components/Navbar";
 import Subbar from "./components/Subbar";
-import MessengerWidget from "./components/MessengerWidget";
 
 function App() {
   return (
     <Box sx={{ position: "relative", width: "100vw" }}>
       <Navbar />
-      <MessengerWidget/>
+      <Messen
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/instructors" element={<Instructors />} />
